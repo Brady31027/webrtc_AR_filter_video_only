@@ -10,18 +10,6 @@
             margin-right: 10px !important;
         }
 
-        canvas {
-            width: 1280px;
-            height: 720px;
-            margin: 0;
-            padding: 0;
-            object-fit: cover;
-            transform: scaleX(-1);
-        }
-
-        .grayscale {
-          filter: grayscale(1);
-        }
     </style>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   </head>
@@ -39,8 +27,10 @@
     </div>  
 
     <br/>
-
-    <script src="./dist/bundle.js" charset="utf-8"></script>  
+    
+    <p id="debug_msg">Debug Message: </p>
+    
+	<script src="./dist/bundle.js" charset="utf-8"></script>  
 
   </body>
 </html>
